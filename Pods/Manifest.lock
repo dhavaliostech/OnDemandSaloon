@@ -1,0 +1,85 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Braintree/Core (4.16.0)
+  - Braintree/PayPal (4.16.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.16.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.16.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.16.0)
+  - FloatRatingView (3.0)
+  - GoogleMaps/Base (2.7.0)
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - IQKeyboardManagerSwift (6.0.3)
+  - KDCalendar (1.6.0)
+  - KDCircularProgress (1.5.2)
+  - KRActivityIndicatorView (2.1.2)
+  - KRProgressHUD (3.2.2):
+    - KRActivityIndicatorView (= 2.1.2)
+  - RangeSeekSlider (1.7.0)
+  - ReachabilitySwift (4.1.0)
+  - SCPageControl (0.2.1)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Braintree/PayPal
+  - FloatRatingView
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - KDCalendar
+  - KDCircularProgress
+  - KRProgressHUD
+  - RangeSeekSlider
+  - ReachabilitySwift
+  - SCPageControl
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Braintree
+    - FloatRatingView
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManagerSwift
+    - KDCalendar
+    - KDCircularProgress
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - RangeSeekSlider
+    - ReachabilitySwift
+    - SCPageControl
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Braintree: 41b53612276bf3308d2299bec2b4c96594327662
+  FloatRatingView: 0f7b45733124516ac6b8f535e5b5f4fa2e122180
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  KDCalendar: a9dd0f2aa898230a7030677c629ae8d7dda91f4e
+  KDCircularProgress: 12f677b2deb02409ab48c6cae1898d146b8ad549
+  KRActivityIndicatorView: 27e7a7e3da7fbc8e5405fbc4088b51cc2095a410
+  KRProgressHUD: 8872da74b1c462e15c82a8fff250a2d34ee82ea2
+  RangeSeekSlider: 0386c5a9aa5ebcb2fa5238e8a627280cf46c7c0a
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SCPageControl: 85efcc9c6f350fd9dce5f81d774ba0d37d09fd84
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 5a91240a6195c1b23301db152680e06fadc232c8
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_OnDemandSaloon {
+  umbrella header "Pods-OnDemandSaloon-umbrella.h"
+
+  export *
+  module * { export * }
+}
